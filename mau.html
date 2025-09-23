@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Omakase – Cửa hàng máy ảnh</title>
+  <!-- Tailwind prebuilt CSS (no JS) -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <meta name="description" content="Omakase – Thiết bị nhiếp ảnh chuyên nghiệp, dịch vụ uy tín." />
+</head>
+<body class="min-h-screen bg-gray-50 text-gray-900">
+  <!-- 
+ <header class="sticky top-0 z-50 border-b bg-white bg-opacity-95 backdrop-filter">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+     
+        <a href="#home" class="flex items-center" aria-label="Omakase">
+          <h1 class="text-2xl font-bold text-indigo-600">Omakase</h1>
+        </a>
+
+     
+        <nav class="hidden md:block" aria-label="Chính">
+          <ul class="ml-10 flex items-baseline space-x-8">
+            <li><a href="#home" class="transition-colors hover:text-indigo-600">Trang chủ</a></li>
+            <li><a href="#products" class="transition-colors hover:text-indigo-600">Sản phẩm</a></li>
+            <li><a href="#brands" class="transition-colors hover:text-indigo-600">Thương hiệu</a></li>
+            <li><a href="#about" class="transition-colors hover:text-indigo-600">Về chúng tôi</a></li>
+            <li><a href="#contact" class="transition-colors hover:text-indigo-600">Liên hệ</a></li>
+          </ul>
+        </nav>
+
+      
+        <div class="hidden md:flex items-center space-x-4">
+          <div class="relative">
+            <label for="search" class="sr-only">Tìm kiếm sản phẩm</label>
+            <input id="search" type="text" placeholder="Tìm kiếm sản phẩm..." class="pl-3 pr-4 py-2 w-64 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+          </div>
+          <a href="#cart" class="relative inline-flex items-center justify-center rounded-md border px-3 py-2 hover:bg-gray-50" aria-label="Giỏ hàng">
+           
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 12.39A2 2 0 0 0 9.62 15h7.76a2 2 0 0 0 2-1.61L22 6H6"></path></svg>
+            <span class="absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-indigo-600 text-xs text-white">3</span>
+          </a>
+        </div>
+      </div>
+
+      
+      <nav class="md:hidden border-t" aria-label="Chính di động">
+        <ul class="space-y-1 px-2 pb-3 pt-2">
+          <li><a href="#home" class="block px-3 py-2 hover:text-indigo-600">Trang chủ</a></li>
+          <li><a href="#products" class="block px-3 py-2 hover:text-indigo-600">Sản phẩm</a></li>
+          <li><a href="#brands" class="block px-3 py-2 hover:text-indigo-600">Thương hiệu</a></li>
+          <li><a href="#about" class="block px-3 py-2 hover:text-indigo-600">Về chúng tôi</a></li>
+          <li><a href="#contact" class="block px-3 py-2 hover:text-indigo-600">Liên hệ</a></li>
+          <li class="px-3 py-2">
+            <label for="search-mobile" class="sr-only">Tìm kiếm</label>
+            <input id="search-mobile" type="text" placeholder="Tìm kiếm..." class="w-full rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header> 
+ -->
+
+  <!-- Hero Section -->
+  <section id="home" class="relative overflow-hidden py-20 lg:py-32">
+    <div class="absolute inset-0 bg-gradient-to-br from-indigo-50 to-white opacity-70" aria-hidden="true"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 gap-12 lg:grid-cols-2 items-center">
+        <div>
+          <h2 class="mb-6 text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">
+            Khám phá Thế giới Nhiếp ảnh <span class="text-indigo-600">Chuyên Nghiệp</span>
+          </h2>
+          <p class="mb-8 text-xl leading-relaxed text-gray-600">
+            Nâng tầm đam mê nhiếp ảnh của bạn với những thiết bị camera chất lượng cao
+            từ các thương hiệu hàng đầu thế giới. Chúng tôi mang đến trải nghiệm mua sắm
+            tốt nhất cho mọi nhiếp ảnh gia.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="#products" class="inline-flex items-center justify-center rounded-md bg-indigo-600 text-white px-8 py-3 font-medium hover:bg-indigo-700">
+              Mua ngay
+              <span class="ml-2" aria-hidden="true">→</span>
+            </a>
+            <a href="#products" class="inline-flex items-center justify-center rounded-md border border-indigo-600 text-indigo-600 px-8 py-3 font-medium hover:bg-indigo-50">
+              Khám phá bộ sưu tập
+            </a>
+          </div>
+          <div class="mt-12 flex items-center space-x-8">
+            <div class="text-center">
+              <div class="text-2xl font-bold text-indigo-600">10,000+</div>
+              <div class="text-sm text-gray-600">Sản phẩm</div>
+            </div>
+            <div class="text-center">
+              <div class="text-2xl font-bold text-indigo-600">50,000+</div>
+              <div class="text-sm text-gray-600">Khách hàng</div>
+            </div>
+            <div class="text-center">
+              <div class="text-2xl font-bold text-indigo-600">15+</div>
+              <div class="text-sm text-gray-600">Năm kinh nghiệm</div>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="images/back_home.jpg" alt="Ảnh mẫu nè" class="rounded-lg shadow-2xl" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 
+  <section class="py-16 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="mb-16 text-center">
+        <h3 class="mb-4 text-3xl font-extrabold">Danh mục Sản phẩm</h3>
+        <p class="mx-auto max-w-2xl text-xl text-gray-600">Khám phá các danh mục sản phẩm đa dạng cho mọi nhu cầu nhiếp ảnh của bạn</p>
+      </div>
+     
+      <div class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+        <a href="#products" class="flex flex-col items-center p-6 rounded-lg bg-indigo-600 text-white">
+          <span class="text-4xl mb-3">📷</span>
+          <span class="font-semibold">Tất cả</span>
+        </a>
+        <a href="#products" class="flex flex-col items-center p-6 rounded-lg bg-white hover:bg-gray-50 border">
+          <span class="text-4xl mb-3">🟣</span>
+          <span class="font-semibold">Máy ảnh DSLR</span>
+        </a>
+        <a href="#products" class="flex flex-col items-center p-6 rounded-lg bg-white hover:bg-gray-50 border">
+          <span class="text-4xl mb-3">📷</span>
+          <span class="font-semibold">Máy ảnh Mirrorless</span>
+        </a>
+        <a href="#products" class="flex flex-col items-center p-6 rounded-lg bg-white hover:bg-gray-50 border">
+          <span class="text-4xl mb-3">🎥</span>
+          <span class="font-semibold">Ống kính</span>
+        </a>
+        <a href="#products" class="flex flex-col items-center p-6 rounded-lg bg-white hover:bg-gray-50 border">
+          <span class="text-4xl mb-3">🛡️</span>
+          <span class="font-semibold">Phụ kiện</span>
+        </a>
+      </div>
+    </div>
+  </section>
+-->
+  <section id="products" class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="mb-16 text-center">
+        <h3 class="mb-4 text-3xl font-extrabold">Sản phẩm Nổi bật</h3>
+        <p class="mx-auto max-w-2xl text-xl text-gray-600">Khám phá những sản phẩm camera tốt nhất với giá ưu đãi đặc biệt</p>
+      </div>
+
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Product Card Template (repeat) -->
+        <!-- 1 -->
+        <article class="overflow-hidden rounded-lg border bg-white hover:shadow-lg transition-shadow">
+          <div class="relative">
+            <img src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Professional%20Canon%20EOS%20R5%20mirrorless%20camera%20with%20lens%20on%20a%20black%20background&id=canon-eos-r5-001" alt="Canon EOS R5" class="w-full h-64 object-cover" />
+            <div class="absolute top-4 left-4 bg-red-600 text-white px-2 py-1 rounded text-sm font-semibold">-11%</div>
+          </div>
+          <div class="p-6">
+            <h4 class="text-xl font-semibold">Canon EOS R5</h4>
+            <div class="mt-1 flex items-center text-sm text-gray-600">
+              <!-- rating stars -->
+              <span class="text-yellow-400" aria-hidden="true">★★★★★</span>
+              <span class="ml-2">(128 đánh giá)</span>
+            </div>
+            <div class="mt-4 flex items-center space-x-2">
+              <span class="text-2xl font-bold text-indigo-600">32.990.000₫</span>
+              <span class="text-lg text-gray-500 line-through">36.990.000₫</span>
+            </div>
+            <a href="#cart" class="mt-6 block w-full text-center rounded-md bg-indigo-600 px-4 py-2 font-medium text-white hover:bg-indigo-700">Thêm vào giỏ</a>
+          </div>
+        </article>
+
+        <!-- 2 -->
+        <article class="overflow-hidden rounded-lg border bg-white hover:shadow-lg transition-shadow">
+          <div class="relative">
+            <img src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Nikon%20Z7%20II%20mirrorless%20camera%20with%20professional%20lens%20in%20a%20studio%20setting&id=nikon-z7-002" alt="Nikon Z7 II" class="w-full h-64 object-cover" />
+            <div class="absolute top-4 left-4 bg-red-600 text-white px-2 py-1 rounded text-sm font-semibold">-10%</div>
+          </div>
+          <div class="p-6">
+            <h4 class="text-xl font-semibold">Nikon Z7 II</h4>
+            <div class="mt-1 flex items-center text-sm text-gray-600">
+              <span class="text-yellow-400" aria-hidden="true">★★★★★</span>
+              <span class="ml-2">(96 đánh giá)</span>
+            </div>
+            <div class="mt-4 flex items-center space-x-2">
+              <span class="text-2xl font-bold text-indigo-600">28.500.000₫</span>
+              <span class="text-lg text-gray-500 line-through">31.500.000₫</span>
+            </div>
+            <a href="#cart" class="mt-6 block w-full text-center rounded-md bg-indigo-600 px-4 py-2 font-medium text-white hover:bg-indigo-700">Thêm vào giỏ</a>
+          </div>
+        </article>
+
+        <!-- 3 -->
+        <article class="overflow-hidden rounded-lg border bg-white hover:shadow-lg transition-shadow">
+          <div class="relative">
+            <img src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Sony%2024-70mm%20f2.8%20professional%20camera%20lens%20isolated%20on%20white&id=sony-lens-003" alt="Sony FE 24-70mm f/2.8" class="w-full h-64 object-cover" />
+            <div class="absolute top-4 left-4 bg-red-600 text-white px-2 py-1 rounded text-sm font-semibold">-11%</div>
+          </div>
+          <div class="p-6">
+            <h4 class="text-xl font-semibold">Sony FE 24-70mm f/2.8</h4>
+            <div class="mt-1 flex items-center text-sm text-gray-600">
+              <span class="text-yellow-400" aria-hidden="true">★★★★★</span>
+              <span class="ml-2">(154 đánh giá)</span>
+            </div>
+            <div class="mt-4 flex items-center space-x-2">
+              <span class="text-2xl font-bold text-indigo-600">21.900.000₫</span>
+              <span class="text-lg text-gray-500 line-through">24.500.000₫</span>
+            </div>
+            <a href="#cart" class="mt-6 block w-full text-center rounded-md bg-indigo-600 px-4 py-2 font-medium text-white hover:bg-indigo-700">Thêm vào giỏ</a>
+          </div>
+        </article>
+
+        <!-- 4 -->
+        <article class="overflow-hidden rounded-lg border bg-white hover:shadow-lg transition-shadow">
+          <div class="relative">
+            <img src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Canon%2070-200mm%20f2.8%20telephoto%20lens%20with%20white%20finish%20and%20red%20ring&id=canon-lens-004" alt="Canon EF 70-200mm f/2.8" class="w-full h-64 object-cover" />
+            <div class="absolute top-4 left-4 bg-red-600 text-white px-2 py-1 rounded text-sm font-semibold">-11%</div>
+          </div>
+          <div class="p-6">
+            <h4 class="text-xl font-semibold">Canon EF 70-200mm f/2.8</h4>
+            <div class="mt-1 flex items-center text-sm text-gray-600">
+              <span class="text-yellow-400" aria-hidden="true">★★★★★</span>
+              <span class="ml-2">(203 đánh giá)</span>
+            </div>
+            <div class="mt-4 flex items-center space-x-2">
+              <span class="text-2xl font-bold text-indigo-600">25.750.000₫</span>
+              <span class="text-lg text-gray-500 line-through">28.900.000₫</span>
+            </div>
+            <a href="#cart" class="mt-6 block w-full text-center rounded-md bg-indigo-600 px-4 py-2 font-medium text-white hover:bg-indigo-700">Thêm vào giỏ</a>
+          </div>
+        </article>
+
+        <!-- 5 -->
+        <article class="overflow-hidden rounded-lg border bg-white hover:shadow-lg transition-shadow">
+          <div class="relative">
+            <img src="https://placeholder-image-service.onrender.com/image/400x300?prompt=DJI%20OM%205%20smartphone%20gimbal%20stabilizer%20in%20hand&id=dji-gimbal-005" alt="DJI OM 5 Gimbal" class="w-full h-64 object-cover" />
+            <div class="absolute top-4 left-4 bg-red-600 text-white px-2 py-1 rounded text-sm font-semibold">-11%</div>
+          </div>
+          <div class="p-6">
+            <h4 class="text-xl font-semibold">DJI OM 5 Gimbal</h4>
+            <div class="mt-1 flex items-center text-sm text-gray-600">
+              <span class="text-yellow-400" aria-hidden="true">★★★★★</span>
+              <span class="ml-2">(87 đánh giá)</span>
+            </div>
+            <div class="mt-4 flex items-center space-x-2">
+              <span class="text-2xl font-bold text-indigo-600">2.850.000₫</span>
+              <span class="text-lg text-gray-500 line-through">3.200.000₫</span>
+            </div>
+            <a href="#cart" class="mt-6 block w-full text-center rounded-md bg-indigo-600 px-4 py-2 font-medium text-white hover:bg-indigo-700">Thêm vào giỏ</a>
+          </div>
+        </article>
+
+        <!-- 6 -->
+        <article class="overflow-hidden rounded-lg border bg-white hover:shadow-lg transition-shadow">
+          <div class="relative">
+            <img src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Sony%20A7III%20full-frame%20mirrorless%20camera%20with%20battery%20grip&id=sony-a7iii-006" alt="Sony A7III" class="w-full h-64 object-cover" />
+            <div class="absolute top-4 left-4 bg-red-600 text-white px-2 py-1 rounded text-sm font-semibold">-9%</div>
+          </div>
+          <div class="p-6">
+            <h4 class="text-xl font-semibold">Sony A7III</h4>
+            <div class="mt-1 flex items-center text-sm text-gray-600">
+              <span class="text-yellow-400" aria-hidden="true">★★★★★</span>
+              <span class="ml-2">(176 đánh giá)</span>
+            </div>
+            <div class="mt-4 flex items-center space-x-2">
+              <span class="text-2xl font-bold text-indigo-600">24.900.000₫</span>
+              <span class="text-lg text-gray-500 line-through">27.500.000₫</span>
+            </div>
+            <a href="#cart" class="mt-6 block w-full text-center rounded-md bg-indigo-600 px-4 py-2 font-medium text-white hover:bg-indigo-700">Thêm vào giỏ</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="mt-12 text-center">
+        <a href="#products" class="inline-flex items-center rounded-md border border-indigo-600 px-6 py-3 font-medium text-indigo-600 hover:bg-indigo-50">Xem tất cả sản phẩm<span class="ml-2" aria-hidden="true">›</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brands Section -->
+  <section id="brands" class="py-20 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="mb-16 text-center">
+        <h3 class="mb-4 text-3xl font-extrabold">Thương hiệu Đối tác</h3>
+        <p class="mx-auto max-w-2xl text-xl text-gray-600">Hợp tác với những thương hiệu camera hàng đầu thế giới</p>
+      </div>
+      <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
+        <div class="flex items-center justify-center p-6 bg-white rounded-lg border hover:shadow" aria-label="Canon">
+          <img src="https://placeholder-image-service.onrender.com/image/120x60?prompt=Canon%20camera%20logo%20red%20text%20on%20white%20background&id=canon-logo-01" alt="Canon logo" class="h-12 object-contain" />
+        </div>
+        <div class="flex items-center justify-center p-6 bg-white rounded-lg border hover:shadow" aria-label="Nikon">
+          <img src="https://placeholder-image-service.onrender.com/image/120x60?prompt=Nikon%20camera%20logo%20yellow%20text%20on%20black%20background&id=nikon-logo-02" alt="Nikon logo" class="h-12 object-contain" />
+        </div>
+        <div class="flex items-center justify-center p-6 bg-white rounded-lg border hover:shadow" aria-label="Sony">
+          <img src="https://placeholder-image-service.onrender.com/image/120x60?prompt=Sony%20electronics%20logo%20simple%20modern%20design&id=sony-logo-03" alt="Sony logo" class="h-12 object-contain" />
+        </div>
+        <div class="flex items-center justify-center p-6 bg-white rounded-lg border hover:shadow" aria-label="Fujifilm">
+          <img src="https://placeholder-image-service.onrender.com/image/120x60?prompt=Fujifilm%20camera%20logo%20red%20symbol%20and%20text&id=fujifilm-logo-04" alt="Fujifilm logo" class="h-12 object-contain" />
+        </div>
+        <div class="flex items-center justify-center p-6 bg-white rounded-lg border hover:shadow" aria-label="DJI">
+          <img src="https://placeholder-image-service.onrender.com/image/120x60?prompt=DJI%20drone%20company%20logo%20modern%20design&id=dji-logo-05" alt="DJI logo" class="h-12 object-contain" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About (placeholder anchor) -->
+  <section id="about" class="sr-only" aria-hidden="true"></section>
+
+  <!-- 
+  <footer id="contact" class="border-t bg-white">
+    <div class="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-4">
+        
+        <div class="col-span-1 md:col-span-2">
+          <h3 class="mb-4 text-2xl font-bold text-indigo-600">Omakase</h3>
+          <p class="mb-4 max-w-md text-gray-600">
+            Chúng tôi cung cấp những sản phẩm camera chất lượng cao với dịch vụ chuyên nghiệp,
+            mang đến trải nghiệm mua sắm tốt nhất cho cộng đồng nhiếp ảnh gia Việt Nam.
+          </p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-600 hover:text-indigo-600">Facebook</a>
+            <a href="#" class="text-gray-600 hover:text-indigo-600">Twitter</a>
+            <a href="#" class="text-gray-600 hover:text-indigo-600">Instagram</a>
+            <a href="#" class="text-gray-600 hover:text-indigo-600">YouTube</a>
+          </div>
+        </div>
+
+        <
+        <div>
+          <h4 class="mb-4 font-semibold">Liên hệ</h4>
+          <ul class="space-y-3 text-gray-700">
+            <li class="flex items-center"><span class="mr-3">📞</span> <span>+84 123 456 789</span></li>
+            <li class="flex items-center"><span class="mr-3">✉️</span> <span>info@Omakase.vn</span></li>
+            <li class="flex items-center"><span class="mr-3">📍</span> <span>Hà Nội, Việt Nam</span></li>
+          </ul>
+        </div>
+
+   
+        <div>
+          <h4 class="mb-4 font-semibold">Dịch vụ</h4>
+          <ul class="space-y-2 text-gray-700">
+            <li><a href="#" class="hover:text-indigo-600">Bảo hành</a></li>
+            <li><a href="#" class="hover:text-indigo-600">Giao hàng</a></li>
+            <li><a href="#" class="hover:text-indigo-600">Hỗ trợ kỹ thuật</a></li>
+            <li><a href="#" class="hover:text-indigo-600">Tư vấn sản phẩm</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-8 flex flex-col items-center justify-between border-t pt-8 sm:flex-row">
+        <p class="text-sm text-gray-600">© 2024 Omakase. All rights reserved.</p>
+        <div class="mt-4 flex space-x-6 sm:mt-0">
+          <a href="#" class="text-sm text-gray-600 hover:text-indigo-600">Chính sách bảo mật</a>
+          <a href="#" class="text-sm text-gray-600 hover:text-indigo-600">Điều khoản sử dụng</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+-->
+</body>
+</html>
